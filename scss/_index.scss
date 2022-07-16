@@ -1,0 +1,60 @@
+.banner{
+    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.banner-content{
+    h1{
+        font-size: 80px;
+    }
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about{
+    text-align: center;
+}
+.name{
+    li{
+        &:nth-child(3){
+            border-bottom: 1px solid black;
+            padding-bottom: 24px;
+        }
+    }
+}
+.circle{
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.brand{
+    color: white;
+    background-color: black;
+    padding-top: 56px;
+    padding-bottom: 160px;
+}
+.brand-text{
+    text-align: center;
+}
+.brand-img{
+    justify-content: space-between;
+}
+.works{
+    text-align: center;
+}
+.works-img{
+    justify-content: space-between;
+}
+.contact{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 64px 0;
+}
